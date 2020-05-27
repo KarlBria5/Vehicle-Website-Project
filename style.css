@@ -1,0 +1,94 @@
+body{
+    font-family: arial,helvetica,sans-serif;
+    font-size: 17px !important;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0; 
+    background-color: #f4f4f4;
+}
+header{
+   background: #35424a;  
+    color: aqua; 
+    border-bottom: #e8491d 4px solid;
+    padding-right: 400px;
+    font-size: large;
+}
+header .brand{
+    float: right;
+     
+}
+#navbar{
+    
+}
+nav{
+    background-color: burlywood;
+    margin-top: 0;
+    padding-top: 0;
+     
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding: 100px;
+     margin-top: 0;
+}
+ #nav, nav,li, a{
+    padding-top: 5px !important;
+    padding-bottom: 15px!important;
+     height: 50px !important;
+}
+nav a{ 
+    color: darkblue;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+nav  a:hover{
+    color: chartreuse ;
+    font-weight: bold;
+    height: 5px;
+}
+#well{
+    background: url('images/backgrond.jpg') no-repeat 0 -400px;
+    min-height:  400px;
+    text-align: center;
+    color: aqua;
+    margin-top: 0;
+    
+}
+#well h2{
+    font-size: 40px;
+    margin-top:0;
+}
+#asidebar{
+    float: right;
+    width: 40%;
+    background-image: url(images/bg.jpg)!important;
+    color: chartreuse ;
+    min-height: 350px;
+    opacity: 1.5;
+    
+}
+#car, td, a{
+    color: ;
+}
+#car a:hover{
+    color: black;
+    font-weight: bold;
+    
+}
+#social{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}   
+
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color:#35424a;
+    color: aqua;
+    border-top: #e8491d 4px solid;
+}
+@media(max-width:768px){
+}
