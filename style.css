@@ -4,10 +4,10 @@ body{
     line-height: 1.5;
     margin: 0;
     padding: 0; 
-    background-color: #f4f4f4;
+    background-color: #F0E68C;
 }
 header{
-   background: #35424a;  
+   background: #556B2F;  
     color: aqua; 
     border-bottom: #e8491d 4px solid;
     padding-right: 400px;
@@ -15,6 +15,7 @@ header{
 }
 header .brand{
     float: right;
+    
      
 }
 #navbar{
@@ -43,16 +44,21 @@ nav a{
     margin-bottom: 60px;
 }
 nav  a:hover{
-    color: chartreuse ;
+    color: black;
     font-weight: bold;
     height: 5px;
+    font-size: 20px;
+    transition: all .5s ease;
 }
 #well{
-    background: url('images/backgrond.jpg') no-repeat 0 -400px;
+    background: url('images/backgrond.jpg') no-repeat 0 -300px;
     min-height:  400px;
     text-align: center;
     color: aqua;
     margin-top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 #well h2{
@@ -92,3 +98,4 @@ footer{
 }
 @media(max-width:768px){
 }
+
